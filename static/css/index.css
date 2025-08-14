@@ -2,6 +2,12 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+video {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
 
 .footer .icon-link {
     font-size: 25px;
@@ -365,7 +371,7 @@ th {
     gap: 0.5rem;
     padding: 0.25rem;
   }
-  
+
   .tab {
     padding: 0.5rem 0.75rem;
     font-size: 14px;
